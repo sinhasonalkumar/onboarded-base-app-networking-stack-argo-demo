@@ -8,10 +8,10 @@ metadata:
 spec:
   destination:
     server: https://kubernetes.default.svc
-    namespace: qa-demo
+    namespace: prod-demo
   project: default
   source:
-    path: base-app-networking/manifests/qa/
+    path: base-app-networking/manifests/prod/
     repoURL: https://github.com/sinhasonalkumar/base-app-networking-k8s-state-argo-demo.git
     targetRevision: main
     helm:
